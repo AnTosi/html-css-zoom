@@ -19,6 +19,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 2px;
 }
 
 header div.side {
@@ -35,21 +36,28 @@ header div.hidden {
     visibility: hidden;
 }
 
+header div.traffic_light {
+    padding-bottom: 5px;
+}
 header div.traffic_light span {
     border-radius: 50%;
-    padding:6px;
+    width: 12px;
+    height: 12px;
 }
 
 header div span.red {
     background-color: #FC605C;
+    border:1px solid #DE4846;
 }
 
 header div span.yellow {
     background-color: #FDBD41;
+    border: 1px solid #DEA02D;
 }
 
 header div span.green {
     background-color: #33C84A;
+    border: 1px solid #21AA35;
 }
 
 header .meet_id {
@@ -76,6 +84,7 @@ header .meet_id>span.white_back {
 /* sitemain */
 main {
     background-color: black;
+    padding: 10px;
 }
 
 main div.view {
@@ -87,6 +96,13 @@ main div.view>span {
     background-color: #393939;
     padding: 5px;
     border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+div.view .fas {
+    margin-left: 5px;
+    margin-right: 5px;
 }
 /* /sitemain */
 
