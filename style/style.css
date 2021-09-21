@@ -85,6 +85,7 @@ header .meet_id>span.white_back {
 main {
     background-color: black;
     padding: 10px;
+    position: relative;
 }
 
 main div.view {
@@ -116,17 +117,25 @@ main div.flex_container {
 }
 main div.img_container {
     position: relative;
-    padding: 2px;
     background-color: black;
 }
 
 main div.name_container {
     position: absolute;
-    bottom: 0px;
+    bottom: 3px;
     left: 0px;
     background-color: black;
     opacity: 0.6;
-    padding: 5px;
+    padding: 4px;
+}
+
+main div.img_container .talking {
+    border: 2px solid #AAE046;
+}
+
+main div.name_container.spost {
+    bottom: 5px;
+    left: 2px;
 }
 /* /sitemain */
 
