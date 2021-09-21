@@ -137,9 +137,72 @@ main div.name_container.spost {
     bottom: 5px;
     left: 2px;
 }
+
+main div[class^="freccia"] {
+   position:absolute;
+   top: 50%;
+   transform: translate(0 -50%);
+   text-align: center;
+   color: white;
+}
+
+main div[class^="freccia"] .fas {
+    font-size: 2rem;
+}
+
+main div.freccia_right {
+    right: 10px;
+}
+
+main div.freccia_right .fa-caret-right {
+    color: #39BBFC;
+}
+
+main div.freccia_left .fa-caret-left {
+    color: #7F7F7F;
+}
+
 /* /sitemain */
 
+/* bottommenu */
+menu {
+    color: white;
+    background-color: #1F2122;
+    text-align: center;
+    padding:10px;
+    font-size: 0.8rem;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
 
+menu>div.left {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+menu i.fas {
+    font-size: 1.2rem;
+    display: block;
+}
+
+menu .fa-chevron-up {
+  line-height: 100%;
+  vertical-align: middle;  
+}
+
+menu div.chev {
+    margin-left: 15px;
+    margin-right: 8px;
+}
+
+i.fa-microphone {
+    transform: scaleY(1.3);
+    margin-bottom:2px;
+}
+/* /bottommenu */
 
 /* utilities */
 .white_back {
@@ -162,4 +225,12 @@ main div.name_container.spost {
 
 .wrap {
     flex-wrap: wrap;
+}
+
+.flex_container {
+    display: flex;
+}
+
+.al_ce {
+    align-items: center;
 }
